@@ -35,7 +35,7 @@ entity serial_adder is
         zero            : out   std_logic;
         neg             : out   std_logic
         );
-end module;
+end entity serial_adder;
 ```
 
 ![timing diagram](https://svg.wavedrom.com/{signal:[{name:'clk',wave:'p.........'},{name:'a',wave:'x======x..'},{name:'b',wave:'x======x..'},{name:'start',wave:'010.......'},{name:'sum',wave:'xx=======.',data:['sum1','sum2','sum3','sum4','sum5','sum6']},{name:'done',wave:'0......10.'},{name:'cout,zero,neg',wave:'0......10.'}]})
